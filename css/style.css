@@ -150,3 +150,10 @@ li {
 .articleBanner p img {
   width: 100%;
 }
+
+.side_menu .point {
+  background-color: #fcecec;
+}
+.side_menu .point a {
+  color: #4d4d4d;
+}
