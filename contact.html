@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
     <title>株式会社DIVE</title>
   </head>
   <body>
@@ -31,11 +32,45 @@
               <li class="point"><a href="contact.html">お問い合わせ</a></li>
             </ul>
           </nav>
-          <p class="banner">
-            <a href="#"><img src="./images/banner.png"/></a>
-          </p>
         </aside>
-        <article class="content"></article>
+        <article class="content">
+          <form class="contact">
+            <table>
+              <tr>
+                <th>お名前</th>
+                <td><input type="text" class="w480" /></td>
+              </tr>
+              <tr>
+                <th>メールアドレス</th>
+
+                <td><input type="email" name="email" class="w480" /></td>
+              </tr>
+              <tr>
+                <th>性別</th>
+                <td>
+                  <input type="radio" name="sex" id="m" />男
+                  <input type="radio" name="sex" id="f" />女
+                </td>
+              </tr>
+              <tr>
+                <th>お問い合わせ内容</th>
+                <td>
+                  <textarea
+                    name="info"
+                    id=""
+                    cols="30"
+                    rows="10"
+                    class="w480"
+                  ></textarea>
+                </td>
+              </tr>
+            </table>
+
+            <div class="button">
+              <input type="submit" value="送信" />
+            </div>
+          </form>
+        </article>
       </div>
       <footer class="footer">
         <p>Copyright&copy;2020 DIVE INC ALL RIGHTS RESERVED.</p>
